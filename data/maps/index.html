@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Loft School sample project</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"
+          type="text/javascript"></script>
+  <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body, html {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .wrapper {
+      width: 100%;
+      height: 100%;
+    }
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+    .balloon {
+      width: 300px;
+      margin: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .balloon__header {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 15px;
+      background-color: orangered;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    .balloon__close {
+      font-size: 1.3em;
+      line-height: 1;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .balloon__content {
+      padding: 10px;
+    }
+    .balloon__reviews {
+      height: 200px;
+      overflow-y: scroll;
+    }
+    .form__title {
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: orangered;
+    }
+    .form__field {
+      position: relative;
+      display: block;
+      margin-bottom: 5px;
+      width: 100%;
+    }
+    .textfield__control,
+    .textarea__control {
+      width: 100%;
+      padding: 5px 10px;
+      border-radius: 15px;
+      outline: none;
+      border: 1px solid darkgray;
+    }
+    .textarea__control {
+      resize: none;
+    }
+    .random {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 5px 15px;
+      border: 1px solid #cecece;
+      border-radius: 15px;
+      background-color: lightgray;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .form__buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+    .form__btn {
+      padding: 5px 10px;
+      outline: none;
+      border: 5px solid orangered;
+      border-radius: 15px;
+      background-color: transparent;
+      color: orangered;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .form__btn:hover {
+      background-color: orangered;
+      color: #ffffff;
+    }
+    /*стили для основного балуна*/
+    .review {
+      margin-bottom: 10px;
+    }
+    .review__header {
+      margin-bottom: 10px;
+
+    }
+    .review__name {
+      font-weight: bold;
+    }
+
+    .review__body {
+      position: relative;
+      padding: 3px;
+      border: 1px solid #000;
+      border-radius: 8px;
+      background-color: lightblue;
+    }
+    .review__body:before {
+      content:'';
+      position: absolute;
+      top: 0;
+      left: 10px;
+      display: block;
+      width: 10px;
+      height: 10px;
+      border: 1px solid transparent;
+      border-left-color: #000;
+      border-top-color: #000;
+      background-color: lightblue;
+      transform: rotate(45deg) translateY(-10px);
+    }
+    .review__footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+      margin-top: 5px;
+      font-size: 10px;
+    }
+    .review__place {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    /* стили для кластера */
+    .cluster-balloon {
+      display: flex;
+      flex-direction: column;
+      height: 130px;
+      padding-bottom: 15px;
+    }
+    .cluster__header {
+      margin-bottom: 10px;
+    }
+    .cluster__place {
+      margin: 0;
+      margin-bottom: 5px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .cluster__message {
+      flex: 1;
+    }
+    .cluster__footer {
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div id="map"></div>
+  </div>
+
+  <script id="balloonTemplate" type="text/x-handlebars-template">
+    <div class="balloon">
+      <div class="balloon__header">
+        <div class="balloon__location"></div>
+        <div class="balloon__close">&times</div>
+      </div>
+      <div class="balloon__content">
+        <div class="balloon__reviews"></div>
+        <div class="balloon__form">
+          <form action="" method="post" class="form">
+            <div class="form__title">ваш отзыв</div>
+            <label class="form__field textfield">
+              <input type="text" name="username" class="textfield__control" placeholder="Ваше имя">
+            </label>
+            <label class="form__field textfield">
+              <input type="text" name="username" class="textfield__control" placeholder="Ваше имя">
+            </label>
+            <label class="form__field textarea">
+              <textarea name="message" id="" cols="30" rows="10" class="textarea__control" placeholder="Ваш отзыв"></textarea>
+            </label>
+            <button class="form__btn" type="button">Сохранить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </script>
+<script type="text/javascript" src="main.js"></script></body>
+</html>

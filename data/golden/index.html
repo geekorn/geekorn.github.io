@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Золотой век</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="container container_flex header__container_flex header__container_flex_end">
+                <ul class="contacts contacts_dir_row contacts_color_white">
+                      <li class="contacts__item"><span class="contacts__link">
+                          <svg class="contacts__icon contacts__icon_mail" viewBox="0 0 100 100">
+                            <use xlink:href="assets/img/sprite.svg#mail"></use>
+                          </svg><span class="contacts__text">info@info.com</span></span>
+                      </li>
+                      <li class="contacts__item"><span class="contacts__link">
+                          <svg class="contacts__icon contacts__icon_phone1" viewBox="0 0 100 100">
+                            <use xlink:href="assets/img/sprite.svg#phone1"></use>
+                          </svg><span class="contacts__text">+7 123 4567890</span></span>
+                      </li>
+                </ul>
+                <button class="btn btn_size_s btn_color_light header-btn magnific" href="#modal-popup">заказать звонок</button>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="container header__container_flex header__container_flex_space">
+            <div class="header__logo"><a class="logo" href="#">золотой век. студия наружней рекламы</a></div>
+            <div class="header__nav">
+                  <nav class="nav">
+                    <ul class="nav__list header-menu">
+                          <li class="nav__item"><a class="nav__link" href="#about">о компании</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#products">продукты</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#services">услуги</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#works">работы</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#clients">клиенты</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#contacts">контакты</a></li>
+                    </ul>
+                  </nav>
+              <button class="menu-btn" type="button"><span class="menu-line"></span></button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="slider-wrapper">
+        <div class="slider">
+          <div class="slider__item" style="background-image: url(assets/img/bg/slider.jpg);">
+            <div class="slide">
+              <h1 class="main-title slide-title">золотой <span class="slide-title__text_color_gold">век</span></h1>
+              <div class="slide-desc">Знаем все о наружней рекламе</div>
+              <div class="slide-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</div>
+                  <button class="btn btn_size_l btn_color_light slide-btn magnific" href="#modal-popup">оставить заявку</button>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url(assets/img/bg/slider.jpg);">
+            <div class="slide">
+              <h1 class="main-title slide-title">золотой <span class="slide-title__text_color_gold">век</span></h1>
+              <div class="slide-desc">Знаем все о наружней рекламе</div>
+              <div class="slide-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</div>
+                  <button class="btn btn_size_l btn_color_light slide-btn magnific" href="#modal-popup">оставить заявку</button>
+            </div>
+          </div>
+        </div>
+        <button class="slider-btn slider-btn_prev" id="prev-slide" type="button"></button>
+        <button class="slider-btn slider-btn_next" id="next-slide" type="button"></button>
+      </div>
+      <section class="section l-about" id="about">
+        <div class="container">
+          <div class="about-advantage">
+            <ul class="advantage">
+              <li class="advantage__item">
+                <div class="advantage__wrapper">
+                  <div class="advantage__icon-wrap">
+                    <svg class="advantage__icon" viewBox="0 0 100 100">
+                      <use xlink:href="assets/img/sprite.svg#proizvodstvo"></use>
+                    </svg>
+                  </div>
+                  <div class="advantage__content-wrap">
+                    <div class="advantage__content-cell">
+                      <div class="advantage__title">собственное<br/>производство</div>
+                      <div class="advantage__desc">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                          <button class="btn btn_size_m btn_color_dark advantage__btn magnific" href="#modal-popup">заказать</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="advantage__item">
+                <div class="advantage__wrapper">
+                  <div class="advantage__icon-wrap">
+                    <svg class="advantage__icon" viewBox="0 0 100 100">
+                      <use xlink:href="assets/img/sprite.svg#russia"></use>
+                    </svg>
+                  </div>
+                  <div class="advantage__content-wrap">
+                    <div class="advantage__content-cell">
+                      <div class="advantage__title">работаем<br/>по всей россии</div>
+                      <div class="advantage__desc">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                          <button class="btn btn_size_m btn_color_dark advantage__btn magnific" href="#modal-popup">заказать</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="advantage__item">
+                <div class="advantage__wrapper">
+                  <div class="advantage__icon-wrap">
+                    <svg class="advantage__icon" viewBox="0 0 100 100">
+                      <use xlink:href="assets/img/sprite.svg#postanovlenie"></use>
+                    </svg>
+                  </div>
+                  <div class="advantage__content-wrap">
+                    <div class="advantage__content-cell">
+                      <div class="advantage__title">согласно<br/>постановлению №902 ПП</div>
+                      <div class="advantage__desc">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                          <button class="btn btn_size_m btn_color_dark advantage__btn magnific" href="#modal-popup">заказать</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="advantage__item">
+                <div class="advantage__wrapper">
+                  <div class="advantage__icon-wrap">
+                    <svg class="advantage__icon" viewBox="0 0 100 100">
+                      <use xlink:href="assets/img/sprite.svg#reklama"></use>
+                    </svg>
+                  </div>
+                  <div class="advantage__content-wrap">
+                    <div class="advantage__content-cell">
+                      <div class="advantage__title">полный комплект<br/>рекламной продукции</div>
+                      <div class="advantage__desc">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                          <button class="btn btn_size_m btn_color_dark advantage__btn magnific" href="#modal-popup">заказать</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="about">
+            <div class="about__left">
+              <h2 class="section-title about__title">О компании</h2>
+              <div class="about__desc">
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
+                <p>
+                  Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                  
+                </p>
+              </div>
+              <ul class="about-counters">
+                <li class="about-counters__item">
+                  <div class="about-counters__num">5386</div>
+                  <div class="about-counters__label">проекта</div>
+                </li>
+                <li class="about-counters__item">
+                  <div class="about-counters__num">1675</div>
+                  <div class="about-counters__label">клиентов</div>
+                </li>
+                <li class="about-counters__item">
+                  <div class="about-counters__num">86</div>
+                  <div class="about-counters__label">сотрудников</div>
+                </li>
+                <li class="about-counters__item">
+                  <div class="about-counters__num">7</div>
+                  <div class="about-counters__label">лет в рекламе</div>
+                </li>
+              </ul>
+            </div>
+            <div class="about__right">
+              <div class="about__img"><img class="about__pic" src="assets/img/userfiles/print.jpg" alt="" title=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section l-request">
+        <div class="container">
+          <form class="form request-form" action="" method="POST">
+            <div class="form__title">
+              Оставьте заявку на БЕСПЛАТНУЮ РАЗРАБОТКУ двух дизайн-проектов
+              
+            </div>
+            <div class="form__body">
+              <label class="form__field textfield"><span class="textfield__wrapper">
+                  <input class="textfield__control" type="text" placeholder="ваше имя"><span class="textfield__error-msg"></span></span></label>
+              <label class="form__field textfield"><span class="textfield__wrapper">
+                  <input class="textfield__control" type="email" placeholder="ваш e-mail"><span class="textfield__error-msg"></span></span></label>
+              <label class="form__field textfield"><span class="textfield__wrapper">
+                  <input class="textfield__control" type="tel" placeholder="ваш телефон"><span class="textfield__error-msg"></span></span></label>
+            </div>
+                <button class="btn btn_size_l" href="">Оставить заявку</button>
+          </form>
+        </div>
+      </section>
+      <section class="section section_text_center l-products" id="products">
+        <div class="container">
+          <h2 class="section-title section-title_icon_center products__title">Наши продукты</h2>
+          <div class="products__desc">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</div>
+          <div class="products__tabs">
+            <div class="tabs-controls">
+              <div class="tabs-controls__item" data-products="tab-1">вывески</div>
+              <div class="tabs-controls__item" data-products="tab-2">входные группы</div>
+              <div class="tabs-controls__item" data-products="tab-3">стеллы и пилоны</div>
+              <div class="tabs-controls__item" data-products="tab-4">крышные установки</div>
+              <div class="tabs-controls__item" data-products="tab-5">световые короба</div>
+              <div class="tabs-controls__item" data-products="tab-6">posm материалы</div>
+            </div>
+            <div class="tabs-content">
+              <div class="tabs-content__item tab-1">
+                <div class="tab__column tab__column_left">
+                  <div class="tab__desc">0
+                    <p>Deserunt in nulla pariatur ullamco incididunt ea dolor tempor incididunt et. Nostrud, pariatur est voluptate qui, in, reprehenderit excepteur ad officia sunt dolore. Duis nisi aliquip ullamco ad, aliquip magna commodo adipiscing. Laboris, proident et sed aute sit exercitation proident eiusmod</p>
+                    <ul>
+                      <li>Объемные вывески</li>
+                      <li>Фасадные вывески</li>
+                      <li>Рекламные вывески</li>
+                      <li>Не световые вывески</li>
+                      <li>Вывески с внешней подсветкой</li>
+                      <li>Вывески сложной формы</li>
+                      <li>Баннеры</li>
+                      <li>Светодиодные вывески</li>
+                      <li>Комбинированные вывески</li>
+                    </ul>
+                  </div>
+                      <button class="btn btn_size_m btn_color_dark btn_pos_center magnific" href="#modal-popup">заказать</button>
+                </div>
+                <div class="tab__column tab__column_right">
+                  <div class="tab__img"><img class="tab__pic" src="assets/img/userfiles/bank.jpg" alt="" title=""></div>
+                </div>
+              </div>
+              <div class="tabs-content__item tab-2">
+                <div class="tab__column tab__column_left">
+                  <div class="tab__desc">1
+                    <p>Deserunt in nulla pariatur ullamco incididunt ea dolor tempor incididunt et. Nostrud, pariatur est voluptate qui, in, reprehenderit excepteur ad officia sunt dolore. Duis nisi aliquip ullamco ad, aliquip magna commodo adipiscing. Laboris, proident et sed aute sit exercitation proident eiusmod</p>
+                    <ul>
+                      <li>Объемные вывески</li>
+                      <li>Фасадные вывески</li>
+                      <li>Рекламные вывески</li>
+                      <li>Не световые вывески</li>
+                      <li>Вывески с внешней подсветкой</li>
+                      <li>Вывески сложной формы</li>
+                      <li>Баннеры</li>
+                      <li>Светодиодные вывески</li>
+                      <li>Комбинированные вывески</li>
+                    </ul>
+                  </div>
+                      <button class="btn btn_size_m btn_color_dark btn_pos_center magnific" href="#modal-popup">заказать</button>
+                </div>
+                <div class="tab__column tab__column_right">
+                  <div class="tab__img"><img class="tab__pic" src="assets/img/userfiles/bank.jpg" alt="" title=""></div>
+                </div>
+              </div>
+              <div class="tabs-content__item tab-3">
+                <div class="tab__column tab__column_left">
+                  <div class="tab__desc">2
+                    <p>Deserunt in nulla pariatur ullamco incididunt ea dolor tempor incididunt et. Nostrud, pariatur est voluptate qui, in, reprehenderit excepteur ad officia sunt dolore. Duis nisi aliquip ullamco ad, aliquip magna commodo adipiscing. Laboris, proident et sed aute sit exercitation proident eiusmod</p>
+                    <ul>
+                      <li>Объемные вывески</li>
+                      <li>Фасадные вывески</li>
+                      <li>Рекламные вывески</li>
+                      <li>Не световые вывески</li>
+                      <li>Вывески с внешней подсветкой</li>
+                      <li>Вывески сложной формы</li>
+                      <li>Баннеры</li>
+                      <li>Светодиодные вывески</li>
+                      <li>Комбинированные вывески</li>
+                    </ul>
+                  </div>
+                      <button class="btn btn_size_m btn_color_dark btn_pos_center magnific" href="#modal-popup">заказать</button>
+                </div>
+                <div class="tab__column tab__column_right">
+                  <div class="tab__img"><img class="tab__pic" src="assets/img/userfiles/bank.jpg" alt="" title=""></div>
+                </div>
+              </div>
+              <div class="tabs-content__item tab-4">
+                <div class="tab__column tab__column_left">
+                  <div class="tab__desc">3
+                    <p>Deserunt in nulla pariatur ullamco incididunt ea dolor tempor incididunt et. Nostrud, pariatur est voluptate qui, in, reprehenderit excepteur ad officia sunt dolore. Duis nisi aliquip ullamco ad, aliquip magna commodo adipiscing. Laboris, proident et sed aute sit exercitation proident eiusmod</p>
+                    <ul>
+                      <li>Объемные вывески</li>
+                      <li>Фасадные вывески</li>
+                      <li>Рекламные вывески</li>
+                      <li>Не световые вывески</li>
+                      <li>Вывески с внешней подсветкой</li>
+                      <li>Вывески сложной формы</li>
+                      <li>Баннеры</li>
+                      <li>Светодиодные вывески</li>
+                      <li>Комбинированные вывески</li>
+                    </ul>
+                  </div>
+                      <button class="btn btn_size_m btn_color_dark btn_pos_center magnific" href="#modal-popup">заказать</button>
+                </div>
+                <div class="tab__column tab__column_right">
+                  <div class="tab__img"><img class="tab__pic" src="assets/img/userfiles/bank.jpg" alt="" title=""></div>
+                </div>
+              </div>
+              <div class="tabs-content__item tab-5">
+                <div class="tab__column tab__column_left">
+                  <div class="tab__desc">4
+                    <p>Deserunt in nulla pariatur ullamco incididunt ea dolor tempor incididunt et. Nostrud, pariatur est voluptate qui, in, reprehenderit excepteur ad officia sunt dolore. Duis nisi aliquip ullamco ad, aliquip magna commodo adipiscing. Laboris, proident et sed aute sit exercitation proident eiusmod</p>
+                    <ul>
+                      <li>Объемные вывески</li>
+                      <li>Фасадные вывески</li>
+                      <li>Рекламные вывески</li>
+                      <li>Не световые вывески</li>
+                      <li>Вывески с внешней подсветкой</li>
+                      <li>Вывески сложной формы</li>
+                      <li>Баннеры</li>
+                      <li>Светодиодные вывески</li>
+                      <li>Комбинированные вывески</li>
+                    </ul>
+                  </div>
+                      <button class="btn btn_size_m btn_color_dark btn_pos_center magnific" href="#modal-popup">заказать</button>
+                </div>
+                <div class="tab__column tab__column_right">
+                  <div class="tab__img"><img class="tab__pic" src="assets/img/userfiles/bank.jpg" alt="" title=""></div>
+                </div>
+              </div>
+              <div class="tabs-content__item tab-6">
+                <div class="tab__column tab__column_left">
+                  <div class="tab__desc">5
+                    <p>Deserunt in nulla pariatur ullamco incididunt ea dolor tempor incididunt et. Nostrud, pariatur est voluptate qui, in, reprehenderit excepteur ad officia sunt dolore. Duis nisi aliquip ullamco ad, aliquip magna commodo adipiscing. Laboris, proident et sed aute sit exercitation proident eiusmod</p>
+                    <ul>
+                      <li>Объемные вывески</li>
+                      <li>Фасадные вывески</li>
+                      <li>Рекламные вывески</li>
+                      <li>Не световые вывески</li>
+                      <li>Вывески с внешней подсветкой</li>
+                      <li>Вывески сложной формы</li>
+                      <li>Баннеры</li>
+                      <li>Светодиодные вывески</li>
+                      <li>Комбинированные вывески</li>
+                    </ul>
+                  </div>
+                      <button class="btn btn_size_m btn_color_dark btn_pos_center magnific" href="#modal-popup">заказать</button>
+                </div>
+                <div class="tab__column tab__column_right">
+                  <div class="tab__img"><img class="tab__pic" src="assets/img/userfiles/bank.jpg" alt="" title=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section_text_center l-services" id="services">
+        <div class="container">
+          <h2 class="section-title section-title_icon_center">Наши услуги</h2>
+          <ul class="services">
+            <li class="services__item services__item_margin_bottom service">
+              <div class="service__icon-wrap">
+                <svg class="service__icon" viewBox="0 0 100 100">
+                  <use xlink:href="assets/img/sprite.svg#draw"></use>
+                </svg>
+              </div>
+              <div class="service__title">Дизайн и проектирование</div>
+              <div class="service__desc">
+                Pariatur deserunt, laborum, ad reprehenderit quis sit fugiat, duis culpa. Minim nostrud sunt fugiat reprehenderit, reprehenderit laborum pariatur dolore. Cillum, deserunt irure veniam, et exercitation. Duis aliquip aliquip aliquip nisi sunt, ut, qui.
+                
+              </div>
+            </li>
+            <li class="services__item services__item_margin_bottom service">
+              <div class="service__icon-wrap">
+                <svg class="service__icon" viewBox="0 0 100 100">
+                  <use xlink:href="assets/img/sprite.svg#drel"></use>
+                </svg>
+              </div>
+              <div class="service__title">Дизайн и проектирование</div>
+              <div class="service__desc">
+                Pariatur deserunt, laborum, ad reprehenderit quis sit fugiat, duis culpa. Minim nostrud sunt fugiat reprehenderit, reprehenderit laborum pariatur dolore. Cillum, deserunt irure veniam, et exercitation. Duis aliquip aliquip aliquip nisi sunt, ut, qui.
+                
+              </div>
+            </li>
+            <li class="services__item service">
+              <div class="service__icon-wrap">
+                <svg class="service__icon" viewBox="0 0 100 100">
+                  <use xlink:href="assets/img/sprite.svg#remont"></use>
+                </svg>
+              </div>
+              <div class="service__title">Дизайн и проектирование</div>
+              <div class="service__desc">
+                Pariatur deserunt, laborum, ad reprehenderit quis sit fugiat, duis culpa. Minim nostrud sunt fugiat reprehenderit, reprehenderit laborum pariatur dolore. Cillum, deserunt irure veniam, et exercitation. Duis aliquip aliquip aliquip nisi sunt, ut, qui.
+                
+              </div>
+            </li>
+            <li class="services__item service">
+              <div class="service__icon-wrap">
+                <svg class="service__icon" viewBox="0 0 100 100">
+                  <use xlink:href="assets/img/sprite.svg#soglasovanie"></use>
+                </svg>
+              </div>
+              <div class="service__title">Дизайн и проектирование</div>
+              <div class="service__desc">
+                Pariatur deserunt, laborum, ad reprehenderit quis sit fugiat, duis culpa. Minim nostrud sunt fugiat reprehenderit, reprehenderit laborum pariatur dolore. Cillum, deserunt irure veniam, et exercitation. Duis aliquip aliquip aliquip nisi sunt, ut, qui.
+                
+              </div>
+            </li>
+          </ul>
+              <button class="btn btn_size_m btn_color_dark advantage__btn magnific" href="#modal-popup">заказать</button>
+        </div>
+      </section>
+      <section class="section section_text_center l-works" id="works">
+        <div class="container">
+          <h2 class="section-title section-title_icon_center">Наши работы</h2>
+          <ul class="works-filter">
+            <li class="works-filter__item works-filter__item_active" data-filter="все">все</li>
+            <li class="works-filter__item" data-filter="вывески">вывески</li>
+            <li class="works-filter__item" data-filter="входные группы">входные группы</li>
+            <li class="works-filter__item" data-filter="стеллы и пилоны">стеллы и пилоны</li>
+            <li class="works-filter__item" data-filter="крышные установки">крышные установки</li>
+            <li class="works-filter__item" data-filter="световые короба">световые короба</li>
+            <li class="works-filter__item" data-filter="posm материалы">posm материалы</li>
+          </ul>
+          <select class="works-filter-select" name="filter-works">
+            <option selected value="все" data-filter="все">все</option>
+            <option value="вывески" data-filter="вывески">вывески</option>
+            <option value="входные группы" data-filter="входные группы">входные группы</option>
+            <option value="стеллы и пилоны" data-filter="стеллы и пилоны">стеллы и пилоны</option>
+            <option value="крышные установки" data-filter="крышные установки">крышные установки</option>
+            <option value="световые короба" data-filter="световые короба">световые короба</option>
+            <option value="posm материалы" data-filter="posm материалы">posm материалы</option>
+          </select>
+        </div>
+        <div class="portfolio">
+          <div class="portfolio__card" data-filter="вывески"><a class="portfolio__link" href="assets/img/userfiles/0.jpg" data-title="вывески">
+              <div class="portfolio__hover">
+                <h3 class="portfolio__title">вывески</h3>
+                <div class="portfolio__desc">Тут какой то текст или ссылка</div>
+              </div>
+              <div class="portfolio__img" style="background-image: url(assets/img/userfiles/0.jpg);"><img class="portfolio__img-pic" src="assets/img/userfiles/0.jpg" alt="" title=""></div></a></div>
+          <div class="portfolio__card" data-filter="входные группы"><a class="portfolio__link" href="assets/img/userfiles/1.jpg" data-title="входные группы">
+              <div class="portfolio__hover">
+                <h3 class="portfolio__title">входные группы</h3>
+                <div class="portfolio__desc">Тут какой то текст или ссылка</div>
+              </div>
+              <div class="portfolio__img" style="background-image: url(assets/img/userfiles/1.jpg);"><img class="portfolio__img-pic" src="assets/img/userfiles/1.jpg" alt="" title=""></div></a></div>
+          <div class="portfolio__card" data-filter="стеллы и пилоны"><a class="portfolio__link" href="assets/img/userfiles/2.jpg" data-title="стеллы и пилоны">
+              <div class="portfolio__hover">
+                <h3 class="portfolio__title">стеллы и пилоны</h3>
+                <div class="portfolio__desc">Тут какой то текст или ссылка</div>
+              </div>
+              <div class="portfolio__img" style="background-image: url(assets/img/userfiles/2.jpg);"><img class="portfolio__img-pic" src="assets/img/userfiles/2.jpg" alt="" title=""></div></a></div>
+          <div class="portfolio__card" data-filter="крышные установки"><a class="portfolio__link" href="assets/img/userfiles/3.jpg" data-title="крышные установки">
+              <div class="portfolio__hover">
+                <h3 class="portfolio__title">крышные установки</h3>
+                <div class="portfolio__desc">Тут какой то текст или ссылка</div>
+              </div>
+              <div class="portfolio__img" style="background-image: url(assets/img/userfiles/3.jpg);"><img class="portfolio__img-pic" src="assets/img/userfiles/3.jpg" alt="" title=""></div></a></div>
+          <div class="portfolio__card" data-filter="световые короба"><a class="portfolio__link" href="assets/img/userfiles/0.jpg" data-title="световые короба">
+              <div class="portfolio__hover">
+                <h3 class="portfolio__title">световые короба</h3>
+                <div class="portfolio__desc">Тут какой то текст или ссылка</div>
+              </div>
+              <div class="portfolio__img" style="background-image: url(assets/img/userfiles/0.jpg);"><img class="portfolio__img-pic" src="assets/img/userfiles/0.jpg" alt="" title=""></div></a></div>
+          <div class="portfolio__card" data-filter="все"><a class="portfolio__link" href="assets/img/userfiles/1.jpg" data-title="все">
+              <div class="portfolio__hover">
+                <h3 class="portfolio__title">все</h3>
+                <div class="portfolio__desc">Тут какой то текст или ссылка</div>
+              </div>
+              <div class="portfolio__img" style="background-image: url(assets/img/userfiles/1.jpg);"><img class="portfolio__img-pic" src="assets/img/userfiles/1.jpg" alt="" title=""></div></a></div>
+          <div class="portfolio__card" data-filter="вывески"><a class="portfolio__link" href="assets/img/userfiles/2.jpg" data-title="вывески">
+              <div class="portfolio__hover">
+                <h3 class="portfolio__title">вывески</h3>
+                <div class="portfolio__desc">Тут какой то текст или ссылка</div>
+              </div>
+              <div class="portfolio__img" style="background-image: url(assets/img/userfiles/2.jpg);"><img class="portfolio__img-pic" src="assets/img/userfiles/2.jpg" alt="" title=""></div></a></div>
+          <div class="portfolio__card" data-filter="входные группы"><a class="portfolio__link" href="assets/img/userfiles/3.jpg" data-title="входные группы">
+              <div class="portfolio__hover">
+                <h3 class="portfolio__title">входные группы</h3>
+                <div class="portfolio__desc">Тут какой то текст или ссылка</div>
+              </div>
+              <div class="portfolio__img" style="background-image: url(assets/img/userfiles/3.jpg);"><img class="portfolio__img-pic" src="assets/img/userfiles/3.jpg" alt="" title=""></div></a></div>
+        </div>
+      </section>
+      <section class="section section_text_center l-clients" id="clients">
+        <div class="container">
+          <h2 class="section-title section-title_icon_center">Наши клиенты</h2>
+          <ul class="clients__list">
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/alfa.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/Canon.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/dell.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/ms.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/sovkom.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/sberbank.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/alfa.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/Canon.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/dell.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/ms.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/sovkom.png);"></span></li>
+            <li class="clients__item"><span class="clients__logo-wrap" style="background-image: url(assets/img/clients/sberbank.png);"></span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section l-contacts" id="contacts">
+        <div class="map" id="map"></div>
+        <div class="container">
+          <div class="contacts-wrap">
+            <h2 class="section-title">контакты</h2>
+                <ul class="contacts contacts_dir_col contacts_colored">
+                      <li class="contacts__item"><span class="contacts__link">
+                          <svg class="contacts__icon contacts__icon_point" viewBox="0 0 100 100">
+                            <use xlink:href="assets/img/sprite.svg#point"></use>
+                          </svg><span class="contacts__text">г.Москва, 8-я ул. Текстильщиков, д.11, к. 2</span></span>
+                      </li>
+                      <li class="contacts__item"><span class="contacts__link">
+                          <svg class="contacts__icon contacts__icon_mail" viewBox="0 0 100 100">
+                            <use xlink:href="assets/img/sprite.svg#mail"></use>
+                          </svg><span class="contacts__text">info@info.com</span></span>
+                      </li>
+                      <li class="contacts__item"><span class="contacts__link">
+                          <svg class="contacts__icon contacts__icon_phone1" viewBox="0 0 100 100">
+                            <use xlink:href="assets/img/sprite.svg#phone1"></use>
+                          </svg><span class="contacts__text">+7 123 4567890</span></span>
+                      </li>
+                </ul>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="container container_flex">
+            <div class="footer__logo"><a class="logo" href="#">золотой век. студия наружней рекламы</a></div>
+            <div class="footer__nav">
+                  <nav class="nav">
+                    <ul class="nav__list footer-menu">
+                          <li class="nav__item"><a class="nav__link" href="#">о компании</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#products">продукты</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#service">услуги</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#works">работы</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#clients">клиенты</a></li>
+                          <li class="nav__item"><a class="nav__link" href="#contacts">контакты</a></li>
+                    </ul>
+                  </nav>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <div class="copyright">&copy; Копирование любых материалов сайта допустимо только с разрешения правообладателя.</div>
+        </div>
+      </footer>
+      <div class="modal-popup mfp-hide" id="modal-popup-ok">
+        <div class="popup popup-ok">
+          <div class="popup__title">спасибо</div>
+          <div class="popup__msg">ваша заявка отправлена</div>
+          <button class="popup-close-btn" type="button">×</button>
+        </div>
+      </div>
+      <div class="modal-popup mfp-hide" id="modal-popup-error">
+        <div class="popup popup-error">
+          <div class="popup__title">упс!!</div>
+          <div class="popup__msg">что-то пошло не так!</div>
+          <button class="popup-close-btn" type="button">×</button>
+        </div>
+      </div>
+      <div class="popup popup-form mfp-hide" id="modal-popup">
+        <div class="popup__title">Оставьте заявку</div>
+        <div class="popup__desc">и мы Вам перезвоним</div>
+        <form id="popup-form" action="" method="">
+          <div class="form_container">
+            <label class="form__field textfield popup-field"><span class="textfield__wrapper">
+                <input class="textfield__control" type="text" placeholder="ваше имя"><span class="textfield__error-msg"></span></span></label>
+            <label class="form__field textfield popup-field"><span class="textfield__wrapper">
+                <input class="textfield__control" type="email" placeholder="ваш e-mail"><span class="textfield__error-msg"></span></span></label>
+            <label class="form__field textfield popup-field"><span class="textfield__wrapper">
+                <input class="textfield__control" type="text" placeholder="ваш телефон"><span class="textfield__error-msg"></span></span></label>
+          </div>
+              <button class="btn btn_size_l" href="">Оставить заявку</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

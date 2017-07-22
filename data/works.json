@@ -1,0 +1,43 @@
+[
+  {
+    "name": "goldenAge",
+    "description": "Верстка сайта по макету",
+    "technology": [
+      "html",
+      "css",
+      "javascript",
+      "jquery",
+      "gulp"
+    ],
+    "link": "data/golden",
+    "img": "assets/img/userfiles/golden.png"
+  },
+  {
+    "name": "vk",
+    "description": "Учебный проект с использованием VK API и YMAPS API",
+    "technology": [
+      "html",
+      "css",
+      "javascript",
+      "es2015",
+      "webpack"
+    ],
+    "link": "data/vk",
+    "source": "https://github.com/geekorn/js_loftschool/tree/VK_API",
+    "img": "assets/img/userfiles/vk.png"
+  },
+  {
+    "name": "maps",
+    "description": "Учебный проект с использованием YMAPS API",
+    "technology": [
+      "html",
+      "css",
+      "javascript",
+      "es2015",
+      "webpack"
+    ],
+    "link": "data/maps",
+    "source": "https://github.com/geekorn/js_loftschool/tree/maps_api",
+    "img": "assets/img/userfiles/maps.png"
+  }
+]

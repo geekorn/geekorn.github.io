@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>WELCOME</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="preloader">
+        <div class="pleloader__content">
+          <div class="preloader__animation"></div>
+          <div class="preloader__percent">0%</div>
+        </div>
+      </div>
+      <div class="index-wrapper">
+        <div class="welcome__background" id="paralax">
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_1.png" alt=""></div>
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_2.png" alt=""></div>
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_3.png" alt=""></div>
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_4.png" alt=""></div>
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_5.png" alt=""></div>
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_6.png" alt=""></div>
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_7.png" alt=""></div>
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_8.png" alt=""></div>
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_9.png" alt=""></div>
+          <div class="paralax__layer"><img class="paralax__pic" src="assets/img/paralax/Layer_10.png" alt=""></div>
+        </div>
+        <button class="btn auth-button" type="button">авторизоваться</button>
+        <div class="welcome-wrapper flip-container">
+          <div class="flipper">
+            <div class="welcome">
+              <div class="welcome__user">
+                <div class="user user_color_black">
+                  <div class="user__avatar"><img class="avatar__pic" src="assets/img/userfiles/avatar.jpg"/></div>
+                  <div class="user__name">Корнеев Сергей</div>
+                  <div class="user__desc">Личный сайт веб разработчика</div>
+                </div>
+              </div>
+              <div class="welcome__socials">
+                <ul class="social__list social__list_color_green">
+                  <li class="social__item"><a class="social__link social__link_vk" href="https://vk.com/id170986" target="_blank">
+                      <svg class="social__icon">
+                        <use xlink:href="assets/img/sprite/sprite.svg#vk"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a class="social__link social__link_github" href="https://github.com/geekorn" target="_blank">
+                      <svg class="social__icon">
+                        <use xlink:href="assets/img/sprite/sprite.svg#github"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+              <nav class="menu">
+                <ul class="menu__list menu__list_inline">
+                  <li class="menu__item"><a class="menu__link" href="works.html">Мои работы</a></li>
+                  <li class="menu__item"><a class="menu__link" href="about.html">Обо мне</a></li>
+                  <li class="menu__item"><a class="menu__link" href="blog.html">Блог</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="auth">
+              <div class="auth-title">
+                <div class="block-title">авторизуйтесь</div>
+              </div>
+              <div class="auth__form">
+                <form action="" method="" id="auth-form">
+                  <div class="form__container">
+                    <div class="input-group input-group_iconed">
+                      <input class="form-input" type="text" placeholder="Логин">
+                      <div class="input-group__icon-field">
+                        <svg class="input-group__icon">
+                          <use xlink:href="assets/img/sprite/sprite.svg#login"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="input-group input-group_iconed">
+                      <input class="form-input" type="password" placeholder="Пароль">
+                      <div class="input-group__icon-field">
+                        <svg class="input-group__icon">
+                          <use xlink:href="assets/img/sprite/sprite.svg#password"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="auth-form__checkbox">
+                      <label class="checkbox">
+                        <input class="checkbox__fake" type="checkbox">
+                        <div class="checkbox__label">Я человек</div>
+                      </label>
+                    </div>
+                    <div class="auth-form__radio radio-group">
+                      <div class="radio-group__title">Вы точно человек?</div>
+                      <div class="radio-group__inputs">
+                        <label class="radio-btn">
+                          <input class="radio-btn__fake" type="radio" name="robot" value="yes">
+                          <div class="radio-btn__label">Да</div>
+                        </label>
+                        <label class="radio-btn">
+                          <input class="radio-btn__fake" type="radio" name="robot" value="no">
+                          <div class="radio-btn__label">Не уверен</div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="input-error-msg"></div>
+                  </div>
+                  <div class="auth-form__buttons form__buttons">
+                    <button class="form__btn btn-return" type="button">На главную</button>
+                    <button class="form__btn" type="submit">Войти</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="welcome__copyright">
+          <ul class="copy-right copy-right_bold">
+            <li class="copy-right__item"><span class="copy-right__text">&copy; Корнеев Сергей</span></li>
+            <li class="copy-right__item"><span class="copy-right__text">создано в Loftschool</span></li>
+            <li class="copy-right__item"><span class="copy-right__text">2017</span></li>
+          </ul>
+        </div>
+        <div class="welcome__error">
+          <div class="input-error-captcha">
+            <div class="input-error-captcha__close"></div>
+            <div class="input-error-captcha__text">Роботам тут не место</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
