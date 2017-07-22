@@ -1630,6 +1630,7 @@ label {
     background-color: #009688; }
 
 .work__source {
+	display: block;
   color: #455a64;
   text-decoration: none; }
   .work__source:hover {
