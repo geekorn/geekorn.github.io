@@ -590,6 +590,7 @@ label {
 
 .preloader {
   background-image: url("../img/decor/preloader_bg.jpg");
+    background-size: cover;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1835,7 +1836,7 @@ label {
   min-width: 56.25rem; }
   .feedback__bg img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto; }
 
 .feedback-form {
