@@ -10,7 +10,9 @@
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="assets/css/modal.css"><!--[if lt IE 9]>
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/app.js" defer></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
@@ -97,26 +99,30 @@
       </div>
     </section>
     <div class="modal">
-      <div class="modal__content">
-        <button class="close">&times</button>
-        <button class="rotate">Перевернуть</button>
-        <div class="modal__side modal__front">
-          <div class="logo"></div>
-          <div class="tape">18000 рублей</div>
-          <button class="take-it"></button>
-          <div class="promo-code"><span class="promo-code__title">промокод:</span><span class="promo-code__code">2018CBS</span></div>
+      <div class="modal__content flip-content">
+        <div class="modal__buttons">
+          <button class="close">&times</button>
+          <button class="rotate" data-flag="0">Перевернуть</button>
         </div>
-        <div class="modal__side modal__back">
-          <div class="description">
-            <p>Воспользуйтесь сертификатом, назвав нам код. Этот сертификат действителен до 31.03.2018 года</p>
-            <p>Сертификатом можно оплатить полную стоимость или часть стоимости любой услуги!</p>
-            <p>
-              Например: безлимитное консультирование 8000 рублей в месяц
-              бухгалтерское обслуживание 15000 рублей в месяц
-              экспресс-аудит 40000 рублей
-            </p>
+        <div class="flipper">
+          <div class="modal__side modal__front">
+            <div class="logo"></div>
+            <div class="tape">18000 рублей</div>
+            <button class="take-it"></button>
+            <div class="promo-code"><span class="promo-code__title">промокод:</span><span class="promo-code__code">2018CBS</span></div>
           </div>
-          <button class="take-it"></button>
+          <div class="modal__side modal__back">
+            <div class="description">
+              <p>Воспользуйтесь сертификатом, назвав нам код. Этот сертификат действителен до 31.03.2018 года</p>
+              <p>Сертификатом можно оплатить полную стоимость или часть стоимости любой услуги!</p>
+              <p>
+                Например: безлимитное консультирование 8000 рублей в месяц
+                бухгалтерское обслуживание 15000 рублей в месяц
+                экспресс-аудит 40000 рублей
+              </p>
+            </div>
+            <button class="take-it"></button>
+          </div>
         </div>
       </div>
     </div>
