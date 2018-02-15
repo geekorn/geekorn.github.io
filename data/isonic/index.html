@@ -1,388 +1,257 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Home page</title>
-  <meta content="" name="author">
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="ie=edge" http-equiv="x-ua-compatible">
-  <link rel="stylesheet" href="assets/css/app.css">
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript" defer></script>
-  <script src="assets/js/foundation.js" defer></script>
-  <script src="assets/js/app.js" defer></script>
-  <!--[if lt IE 9]>
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript" defer></script>
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/app.js" defer></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
-</head>
-
-<body>
-  <div class="wrapper">
-    <header class="header">
-      <div class="container header__container">
-        <div class="header__logos">
-          <div class="logos">
-            <a class="logo logo_tt" href="http://t-textile.ru/" target="_blank">
-              <img class="logo__pic" src="assets/img/logos/tt.png" alt="tt logo">
-            </a>
-            <span class="logo logo_isocarbo">
-              <img class="logo__pic" src="assets/img/logos/isocarbo.png" alt="isocarbo logo">
-            </span>
-          </div>
-        </div>
-        <div class="header__menu">
-          <ul class="menu">
-            <li class="menu__item">
-              <a class="menu__link" href="#company">О компании</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#ink">ISONIC ST-E22</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#contacts">Контакты</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section class="intro">
-      <div class="container intro__container">
-        <div class="intro__desc">
-          <div class="intro__logo logo-isonik"></div>
-          <h1 class="title intro__title">isonik st-e22</h1>
-          <div class="intro__text">Итальянские сублимационные чернила для головок Epson</div>
-          <button class="button button_bg_white intro__button" type="button">Подробнее</button>
-        </div>
-        <div class="intro__image">
-          <img class="intro__pic" src="assets/img/ink.png" alt="чернила">
-        </div>
-      </div>
-    </section>
-    <section class="about">
-      <div class="about__header">
-        <div class="container about__container company" id="company">
-          <div class="about__image">
-            <img class="about__pic" src="assets/img/isocarbo1.jpg" alt="химия">
-          </div>
-          <div class="about__desc">
-            <div class="about__logo">
-              <span class="logo logo_isocarbo">
-                <img class="logo__pic" src="assets/img/logos/isocarbo.png">
-              </span>
-            </div>
-            <h2 class="title about__title">о компании</h2>
-            <div class="about__text">
-              <p class="text_bold">С 1923 года компания ISOCARBO разрабатывает и внедряет инновационные технологические решения для требовательного
-                текстильного сектора.</p>
-              <p class="text_thin">Благодаря значительному опыту в процессах окрашивания текстиля, а так же традиционной и цифровой печати, компания
-                ISOCARBO производит широкий ассортимент высокотехнологичной продукции, а именно: дисперсные красители, сублимационные
-                красители, реактивные красители, кислотные красители, пигменты и все вспомогательные вещества для предварительно
-                обработки, пропаривания, мытья и финишной обработки.</p>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <div class="header__logos">     
+            <div class="logos"><a class="logo logo-tt" href="http://t-textile.ru/" target="_blank"><img class="logo__pic" src="assets/img/logos/tt.png" alt="tt logo"></a>
+              <div class="logos logos_dir_column"><span class="logo logo-isocarbo"><img class="logo__pic" src="assets/img/logos/isocarbo.png" alt="isocarbo logo"></span><span class="logo logo-isonik logo-isonik_size_s"><img class="logo__pic" src="assets/img/logos/isonik.png" alt="isocarbo logo"></span></div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="about__footer">
-        <div class="container garanties">
-          <div class="garanties__text">
-            <p class="text">
-              <span class="big-orange">ISOCARBO</span> гарантирует самые высокие стандарты производства и технологий, в полном соответствии с Европейскими
-              нормами качества, а так же охраны здоровья и окружающей среды.</p>
-          </div>
-          <div class="garanties__image">
-            <img class="garanties__pic" src="assets/img/isocarbo2.jpg">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="about-ink" id="ink">
-      <div class="container about-ink__container">
-        <div class="about-ink__desc ink-desc">
-          <div class="ink-desc__column ink">
-            <div class="title ink__title">Чернила
-              <span class="not-up">Isonik</span> ST-E22</div>
-            <div class="ink__text ink__text_white">
-              <p class="text">Isonik ST-E22 - цифровые сублимационные чернила на водной основе для транcферной печати. Продукт подходит для
-                всех печатных машин, работающих на пьезоструйной технологии компании Epson. </p>
-              <p class="text_thin">Длительные тесты, выполненные на таких принтерах как Epson, Mimaki, Mutoh, Roland показали хорошую совместимость
-                со всеми печатными головами Epson (DX3, DX4, DX5, DX6, DX7, TFP PrecisionCore). Благодаря своим особенностям
-                Isonik ST-E22 отвечает самым высоким требованиям рынка.</p>
-            </div>
-            <a class="ink__link" href="assets/img/ST-E22 RU.pdf" target="_blank">техническая спецификация pdf </a>
-          </div>
-          <div class="ink-desc__column brand">
-            <span class="logo logo-isonik brand__logo"></span>
-            <div class="brand__text">ISONIK - это бренд ISOCARBO для рынка цифровых чернил</div>
-          </div>
-        </div>
-        <div class="about-ink__gallery">
-          <div class="gallery">
-            <button class="gallery__button gallery__button_prev" type="button"></button>
-            <div class="gallery__list">
-              <div class="gallery__item">
-                <a class="gallery__link" href="assets/img/slider/slider1.jpg">
-                  <img class="gallery__image" src="assets/img/slider/slider1_preview.jpg">
-                </a>
-              </div>
-              <div class="gallery__item">
-                <a class="gallery__link" href="assets/img/slider/slider2.jpg">
-                  <img class="gallery__image" src="assets/img/slider/slider2_preview.jpg">
-                </a>
-              </div>
-              <div class="gallery__item">
-                <a class="gallery__link" href="assets/img/slider/slider3.jpg">
-                  <img class="gallery__image" src="assets/img/slider/slider3_preview.jpg">
-                </a>
-              </div>
-              <div class="gallery__item">
-                <a class="gallery__link" href="assets/img/slider/slider4.jpg">
-                  <img class="gallery__image" src="assets/img/slider/slider4_preview.jpg">
-                </a>
-              </div>
-              <div class="gallery__item">
-                <a class="gallery__link" href="assets/img/slider/slider5.jpg">
-                  <img class="gallery__image" src="assets/img/slider/slider5_preview.jpg">
-                </a>
-              </div>
-              <div class="gallery__item">
-                <a class="gallery__link" href="assets/img/slider/slider6.jpg">
-                  <img class="gallery__image" src="assets/img/slider/slider6_preview.jpg">
-                </a>
-              </div>
-            </div>
-            <button class="gallery__button gallery__button_next" type="button"></button>
-          </div>
-        </div>
-        <div class="about-ink__tabs">
-          <div class="tabs">
-            <ul class="tabs__controls tab-controls">
-              <li class="tab-controls__item">
-                <a class="tab-controls__link" href="#">Мода</a>
-              </li>
-              <li class="tab-controls__item">
-                <a class="tab-controls__link" href="#">Спортивная одежда</a>
-              </li>
-              <li class="tab-controls__item">
-                <a class="tab-controls__link" href="#">Домашний текстиль</a>
-              </li>
-              <li class="tab-controls__item">
-                <a class="tab-controls__link" href="#">Реклама</a>
-              </li>
-            </ul>
-            <ul class="tabs__content tab-content">
-              <li class="tab-content__item">
-                <div class="tab-content__image">
-                  <svg class="tab-content__icon">
-                    <use xlink:href="assets/img/sprite.svg#dress"> </use>
-                  </svg>
-                  <img class="tab-content__pic" src="assets/img/tabs/moda.jpg">
-                </div>
-                <div class="tab-content__desc">
-                  <div class="title tab-content__title">Мода</div>
-                  <div class="tab-content__text">
-                    <p class="text">Isocarbo является частью истории итальянской текстильной промышленности. Сегодня компания успешно участвует
-                      в цифровых инновациях, поставляя на текстильный рынок сублимационные чернила и оказывая технологическую
-                      поддержку.
-                    </p>
-                    <p class="text_thin">Благодаря постоянному взаимодействию между лабораторией компании ISOCARBO и конечными клиентами, созданы
-                      сублимационные чернила Isonik ST. Несколько формул Isonik ST обеспечивают идеальную комбинацию с любыми
-                      бумагами и синтетическими тканями. Серия Isonik ST-E22 имеет обширную и полную цветовую гамму (флуоресцентные
-                      цвета, светлые цвета, специальные и индивидуальные цвета), обеспечивает правильный черный цвет для
-                      достижения нужной глубины, интенсивности и градаций теней в соответствии с личным вкусом или необходимостью
-                      заказчика.
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li class="tab-content__item">
-                <div class="tab-content__image">
-                  <svg class="tab-content__icon">
-                    <use xlink:href="assets/img/sprite.svg#sport"> </use>
-                  </svg>
-                  <img class="tab-content__pic" src="assets/img/tabs/sport.jpg">
-                </div>
-                <div class="tab-content__desc">
-                  <div class="title tab-content__title">спортивная одежда</div>
-                  <div class="tab-content__text">
-                    <p class="text">ISOCARBO закрепила абсолютное лидерство в сфере спортивной одежды и экипировки.</p>
-                    <p class="text_thin">Правильный подбор чернил, сервисная поддержка и взаимодействие с клиентами позволили компании ISOCARBO
-                      пройти все тесты (Nike, Converse, Hurley) и получить сертификаты (OEKO-TEX 100, ECOLABEL), необходимые
-                      для удовлетворения самых взыскательных запросов, существующих сегодня на рынке. ISOCARBO является надежным
-                      партнером в достижении уникальных результатов, благодаря высоким стандартам и инвестициям, которые
-                      были сделаны в процессе производства чернил. Новые технологии позволили разработать все более экстремальные
-                      и сложные процессы в сублимационной термотрансферной печати.</p>
-                    <p class="text_thin">Эти процессы необходимы для работы с различными секторами в соответствии с самыми современными трехмерными
-                      технологиями: от традиционного спортивного трикотажа до ультра легкой специальной одежды, от обуви
-                      и аксессуаров, до лыж и других сублимационных поверхностей.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="tab-content__item">
-                <div class="tab-content__image">
-                  <svg class="tab-content__icon">
-                    <use xlink:href="assets/img/sprite.svg#home"> </use>
-                  </svg>
-                  <img class="tab-content__pic" src="assets/img/tabs/textil.jpg">
-                </div>
-                <div class="tab-content__desc">
-                  <div class="title tab-content__title">домашний текстиль</div>
-                  <div class="tab-content__text">
-                    <p class="text">В основе запросов мебельной промышленности и декорации интерьеров лежит постоянство воспроизведения цвета
-                      и абсолютного соответствие с оригинальным рисунком, что компания ISOCARBO рассматривает в качестве
-                      своих основных целей.</p>
-                    <p class="text_thin">Цветовое пространство серии ISONIK ST позволяет получать уникальную гамму цветов с точки зрения ширины,
-                      яркости и глубины. Таким образом, каждая деталь текстильной мебели точно воспроизводится. Количество
-                      цветов, однородность заливки и отсутствие какой-либо неравномерности в печати позволяют воспроизводить
-                      любые типы фонов рисунка.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="tab-content__item">
-                <div class="tab-content__image">
-                  <svg class="tab-content__icon">
-                    <use xlink:href="assets/img/sprite.svg#flag"> </use>
-                  </svg>
-                  <img class="tab-content__pic" src="assets/img/tabs/reklama.jpg">
-                </div>
-                <div class="tab-content__desc">
-                  <div class="title tab-content__title">Реклама</div>
-                  <div class="tab-content__text">
-                    <p class="text">Благодаря реализации более продвинутых продуктов компания ISOCARBO способствует развитию цифровой печати
-                      рекламных носителей.</p>
-                    <p class="text_thin">Спрос на мягкую вывеску (Soft signage) и рекламу на текстиле, постоянно увеличивается. Характеристики
-                      чернил должны включать в себя решающие факторы – скорость производства и правильность цветопередачи.
-                      Чернила, разработанные в лабораториях ISOCARBO превосходят требуемые стандарты, создавая блестящие,
-                      стабильные и устойчивые к погодным условиям цвета, характеризующиеся отличным двухсторонним качеством.
-                    </p>
-                    <p class="text_thin">Тесное сотрудничество с нашими клиентами является ключевым фактором для улучшения и индустриализации
-                      процесса производства печатной продукции, как с использованием сублимационной бумаги так и непосредственно
-                      прямой печати на ткани.</p>
-                  </div>
-                </div>
-              </li>
+          <div class="header__menu">
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="/#company" data-scrollTo="#company">О компании</a></li>
+              <li class="menu__item"><a class="menu__link" href="/#ink" data-scrollTo="#ink">ISONIC ST-E22</a></li>
+              <li class="menu__item"><a class="menu__link" href="/#contacts" data-scrollTo="#contacts">Контакты</a></li>
+              <li class="menu__item"><a class="menu__link" href="gallery.html">Галерея</a></li>
             </ul>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="ecology">
-      <div class="container ecology__container">
-        <h2 class="title ecology__title">Забота об экологии</h2>
-        <div class="ecology__text">
-          <p class="text">Изделия Isonik ST не содержат тяжелых металлов, растворителей и других токсичных/опасных веществ в соответствии
-            с европейским законодательством и экологическими требованиями международных стандартов.</p>
+      </header>
+      <section class="intro">
+        <div class="container intro__container">
+          <div class="intro__desc">
+            <h1 class="title intro__title">isonik st-e22</h1>
+            <div class="intro__text">Итальянские сублимационные чернила для головок Epson</div>
+            <button class="button button_bg_white intro__button" type="button" data-scrollTo="#ink">Подробнее</button>
+          </div>
+          <div class="intro__image"><img class="intro__pic" src="assets/img/ink.png" alt="чернила"></div>
         </div>
-        <ul class="eco-logos">
-          <li class="eco-logos__item">
-            <img class="eco-logos__logo" src="assets/img/eco/eco1.png" alt="логотип">
-          </li>
-          <li class="eco-logos__item">
-            <img class="eco-logos__pic" src="assets/img/eco/eco2.jpg" alt="картинка">
-          </li>
-          <li class="eco-logos__item">
-            <img class="eco-logos__logo" src="assets/img/eco/eco3.png" alt="логотип">
-          </li>
-        </ul>
-        <div class="ecology__text">
-          <p>Сублимационные чернила Isonik ST-E22 соответствуют стандарту OEKO-TEX 100</p>
+      </section>
+      <section class="about">
+        <div class="about__header">
+          <div class="container about__container company" id="company">
+            <div class="about__image"><img class="about__pic" src="assets/img/isocarbo1.jpg" alt="химия"></div>
+            <div class="about__desc">
+              <div class="about__logo"><span class="logo logo_isocarbo"><img class="logo__pic" src="assets/img/logos/isocarbo.png"></span></div>
+              <h2 class="title about__title">о компании</h2>
+              <div class="about__text">
+                <p class="text_bold">С 1923 года компания ISOCARBO разрабатывает и внедряет инновационные технологические решения для требовательного текстильного сектора.</p>
+                <p class="text_thin">Благодаря значительному опыту в процессах окрашивания текстиля, а так же традиционной и цифровой печати, компания ISOCARBO производит широкий ассортимент высокотехнологичной продукции, а именно: дисперсные красители, сублимационные красители, реактивные красители, кислотные красители, пигменты и все вспомогательные вещества для предварительно обработки, пропаривания, мытья и финишной обработки.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="ecology__standart">
-          <img class="eco-logos__pic" src="assets/img/logos/standart.png" alt="логотип">
+        <div class="about__footer">
+          <div class="container garanties">
+            <div class="garanties__text">
+              <p class="text"><span class="big-orange">ISOCARBO</span> гарантирует самые высокие стандарты производства и технологий, в полном соответствии с Европейскими нормами качества, а так же охраны здоровья и окружающей среды.</p>
+            </div>
+            <div class="garanties__image"><img class="garanties__pic" src="assets/img/isocarbo2.jpg"></div>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="b-contacts" id="contacts">
-      <div class="map"></div>
-      <div class="contacts">
-        <div class="contacts__desc">
-          <h3 class="title contacts__title">Контакты</h3>
-          <ul class="contacts__list">
-            <li class="contacts__item">
-              <a class="contacts__value contacts__value_address" href="https://yandex.ru/maps/-/CBe4U-WIsA" target="_blank">Москва, Мукомольный пр-д, 4А стр.2, офис 505</a>
-            </li>
-            <li class="contacts__item">
-              <span class="contacts__value contacts__value_phone">+7 (499) 259 54 01</span>
-            </li>
-            <li class="contacts__item">
-              <a class="contacts__value contacts__value_mail" href="mailto:ale@t-textile.com">ale@t-textile.com</a>
-            </li>
-            <li class="contacts__item">
-              <span class="contacts__value contacts__value_schedule">График работы:
-                <br/>Понедельник — Пятница, 9:30 – 18:30</span>
-            </li>
-            <li class="contacts__item">
-              <ul class="contacts__social social">
-                <li class="social__item">
-                  <a class="social__link" href="#">
-                    <svg class="social__icon">
-                      <use xlink:href="assets/img/sprite.svg#fb"></use>
-                    </svg>
-                  </a>
+      </section>
+      <section class="about-ink" id="ink">
+        <div class="container about-ink__container">
+          <div class="about-ink__desc ink-desc">
+            <div class="ink-desc__column brand">
+              <div class="logo logo_isonik brand__logo"><img class="logo__pic" src="assets/img/logos/isonik.png" alt="isocarbo logo"></div>
+              <div class="brand__text">ISONIK - это бренд ISOCARBO для рынка цифровых чернил</div>
+            </div>
+            <div class="ink-desc__column ink">
+              <div class="title ink__title">Чернила <span class="not-up">Isonik</span> ST-E22</div>
+              <div class="ink__text ink__text_white"> 
+                <p class="text">Isonik ST-E22 - цифровые сублимационные чернила на водной основе для транcферной печати. Продукт подходит для всех печатных машин, работающих на пьезоструйной технологии компании Epson. </p>
+                <p class="text_thin">Длительные тесты, выполненные на таких принтерах как Epson, Mimaki, Mutoh, Roland показали хорошую совместимость со всеми печатными головами Epson  (DX3, DX4,  DX5,  DX6,  DX7,  TFP  PrecisionCore). Благодаря своим особенностям Isonik ST-E22 отвечает самым высоким требованиям рынка.</p>
+              </div><a class="ink__link" href="assets/img/ST-E22 RU.pdf" target="_blank">техническая спецификация pdf</a>
+            </div>
+          </div>
+          <div class="about-ink__gallery">
+            <div class="slider">
+              <button class="slider__button slider__button_prev" type="button"></button>
+              <div class="slider__list">
+                <div class="slider__item"><a class="slider__link magnific-link" href="assets/img/slider/slider2.jpg"><img class="slider__image" src="assets/img/slider/slider2_preview.jpg"></a></div>
+                <div class="slider__item"><a class="slider__link magnific-link" href="assets/img/slider/slider3.jpg"><img class="slider__image" src="assets/img/slider/slider3_preview.jpg"></a></div>
+                <div class="slider__item"><a class="slider__link magnific-link" href="assets/img/slider/slider4.jpg"><img class="slider__image" src="assets/img/slider/slider4_preview.jpg"></a></div>
+                <div class="slider__item"><a class="slider__link magnific-link" href="assets/img/slider/slider5.jpg"><img class="slider__image" src="assets/img/slider/slider5_preview.jpg"></a></div>
+                <div class="slider__item"><a class="slider__link magnific-link" href="assets/img/slider/slider6.jpg"><img class="slider__image" src="assets/img/slider/slider6_preview.jpg"></a></div>
+              </div>
+              <button class="slider__button slider__button_next" type="button"></button>
+            </div><a class="about-ink__link" href="gallery.html">Перейти в галерею</a>
+          </div>
+          <div class="about-ink__tabs">
+            <div class="tabs">
+              <ul class="tabs__controls tab-controls">
+                <li class="tab-controls__item"><a class="tab-controls__link" href="#">Мода</a></li>
+                <li class="tab-controls__item"><a class="tab-controls__link" href="#">Спортивная одежда</a></li>
+                <li class="tab-controls__item"><a class="tab-controls__link" href="#">Домашний текстиль</a></li>
+                <li class="tab-controls__item"><a class="tab-controls__link" href="#">Реклама</a></li>
+              </ul>
+              <ul class="tabs__content tab-content">
+                <li class="tab-content__item">
+                  <div class="tab-content__image">
+                    <svg class="tab-content__icon">
+                      <use xlink:href="assets/img/sprite.svg#dress"> </use>
+                    </svg><img class="tab-content__pic" src="assets/img/tabs/moda.jpg">
+                  </div>
+                  <div class="tab-content__desc">
+                    <div class="title tab-content__title">Мода</div>
+                    <div class="tab-content__text">
+                      <p class="text">Isocarbo является частью истории итальянской текстильной промышленности. Сегодня компания успешно участвует в цифровых инновациях, поставляя на текстильный рынок сублимационные чернила и оказывая технологическую поддержку.</p>
+                      <p class="text_thin">Благодаря постоянному взаимодействию между лабораторией компании ISOCARBO и конечными клиентами, созданы сублимационные чернила Isonik ST. Несколько формул Isonik ST обеспечивают идеальную комбинацию с любыми бумагами и синтетическими тканями. Серия Isonik ST-E22 имеет обширную и полную цветовую гамму (флуоресцентные цвета, светлые цвета, специальные и индивидуальные цвета), обеспечивает правильный черный цвет для достижения нужной глубины, интенсивности и градаций теней в соответствии с личным вкусом или необходимостью заказчика.</p>
+                    </div>
+                  </div>
                 </li>
-                <li class="social__item">
-                  <a class="social__link" href="#">
-                    <svg class="social__icon">
-                      <use xlink:href="assets/img/sprite.svg#twitter"></use>
-                    </svg>
-                  </a>
+                <li class="tab-content__item">
+                  <div class="tab-content__image">
+                    <svg class="tab-content__icon">
+                      <use xlink:href="assets/img/sprite.svg#sport"> </use>
+                    </svg><img class="tab-content__pic" src="assets/img/tabs/sport.jpg">
+                  </div>
+                  <div class="tab-content__desc">
+                    <div class="title tab-content__title">спортивная одежда</div>
+                    <div class="tab-content__text">
+                      <p class="text">ISOCARBO закрепила абсолютное лидерство в сфере спортивной одежды и экипировки.</p>
+                      <p class="text_thin">Правильный подбор чернил, сервисная поддержка и взаимодействие с клиентами позволили компании ISOCARBO пройти все тесты (Nike, Converse, Hurley) и получить сертификаты (OEKO-TEX 100, ECOLABEL), необходимые для удовлетворения самых взыскательных запросов, существующих сегодня на рынке. ISOCARBO является надежным партнером в достижении уникальных результатов, благодаря высоким стандартам и инвестициям, которые были сделаны в процессе производства чернил. Новые технологии позволили разработать все более экстремальные и сложные процессы в сублимационной термотрансферной печати.</p>
+                      <p class="text_thin">Эти процессы необходимы для работы с различными секторами в соответствии с самыми современными трехмерными технологиями: от традиционного спортивного трикотажа до ультра легкой специальной одежды, от обуви и аксессуаров, до лыж и других сублимационных поверхностей.</p>
+                    </div>
+                  </div>
                 </li>
-                <li class="social__item">
-                  <a class="social__link" href="#">
-                    <svg class="social__icon">
-                      <use xlink:href="assets/img/sprite.svg#instagram"></use>
-                    </svg>
-                  </a>
+                <li class="tab-content__item">
+                  <div class="tab-content__image">
+                    <svg class="tab-content__icon">
+                      <use xlink:href="assets/img/sprite.svg#home"> </use>
+                    </svg><img class="tab-content__pic" src="assets/img/tabs/textil.jpg">
+                  </div>
+                  <div class="tab-content__desc">
+                    <div class="title tab-content__title">домашний текстиль</div>
+                    <div class="tab-content__text">
+                      <p class="text">В основе запросов мебельной промышленности и декорации интерьеров лежит постоянство воспроизведения цвета и абсолютного соответствие с оригинальным рисунком, что компания ISOCARBO рассматривает в качестве своих основных целей.</p>
+                      <p class="text_thin">Цветовое пространство серии ISONIK ST позволяет получать уникальную гамму цветов с точки зрения ширины, яркости и глубины. Таким образом, каждая деталь текстильной мебели точно воспроизводится. Количество цветов, однородность заливки и отсутствие какой-либо неравномерности в печати позволяют воспроизводить любые типы фонов рисунка.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="tab-content__item">
+                  <div class="tab-content__image">
+                    <svg class="tab-content__icon">
+                      <use xlink:href="assets/img/sprite.svg#flag"> </use>
+                    </svg><img class="tab-content__pic" src="assets/img/tabs/fasion.jpg">
+                  </div>
+                  <div class="tab-content__desc">
+                    <div class="title tab-content__title">Реклама</div>
+                    <div class="tab-content__text">
+                      <p class="text">Благодаря реализации более продвинутых продуктов компания ISOCARBO способствует развитию цифровой печати рекламных носителей.</p>
+                      <p class="text_thin">Спрос на мягкую вывеску (Soft signage) и рекламу на текстиле, постоянно увеличивается. Характеристики чернил должны включать в себя решающие факторы – скорость производства и правильность цветопередачи. Чернила, разработанные в лабораториях ISOCARBO превосходят требуемые стандарты, создавая блестящие, стабильные и устойчивые к погодным условиям цвета, характеризующиеся отличным двухсторонним качеством. </p>
+                      <p class="text_thin">Тесное сотрудничество с нашими клиентами является ключевым фактором для улучшения и индустриализации процесса производства печатной продукции, как с использованием сублимационной бумаги так и непосредственно прямой печати на ткани.</p>
+                    </div>
+                  </div>
                 </li>
               </ul>
-            </li>
-          </ul>
-        </div>
-        <form class="form contacts__form" action="#" method="POST">
-          <h4 class="form__title">Напишите нам</h4>
-          <ul class="form__list">
-            <li class="form__item">
-              <input class="form__field textfield" type="text" name="username" placeholder="Имя">
-            </li>
-            <li class="form__item">
-              <input class="form__field textfield" type="text" name="mail" placeholder="Почта">
-            </li>
-            <li class="form__item">
-              <textarea class="form__field textarea" name="message" placeholder="Сообщение"></textarea>
-            </li>
-            <li class="form__item">
-              <label class="form__checbox checkbox">
-                <input class="checkbox__field" name="consent" type="checkbox">
-                <span class="checkbox__label"> Я даю согласие на обработку своих персональных данных и соглашаюсь с политикой сайта</span>
-              </label>
-            </li>
-            <li class="form__item">
-              <button class="button button_bg_orange form__button" type="submit">Отправить</button>
-            </li>
-          </ul>
-        </form>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="footer__logos">
-        <div class="container">
-          <div class="logos">
-            <a class="logo logo_tt" href="http://t-textile.ru/" target="_blank">
-              <img class="logo__pic" src="assets/img/logos/tt.png" alt="tt logo">
-            </a>
-            <span class="logo logo_isocarbo">
-              <img class="logo__pic" src="assets/img/logos/isocarbo.png" alt="isocarbo logo">
-            </span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer__copyright">
-        <div class="container">
-          <p>© T&T - Текстиль и технологии, 2017. Все права защищены.</p>
+      </section>
+      <section class="ecology">
+        <div class="container ecology__container">
+          <h2 class="title ecology__title">Забота об экологии</h2>
+          <div class="ecology__text">
+            <p class="text">Изделия Isonik ST не содержат тяжелых металлов, растворителей и других токсичных/опасных веществ в соответствии с европейским законодательством и экологическими требованиями международных стандартов.</p>
+          </div>
+          <ul class="eco-logos">
+            <li class="eco-logos__item"><img class="eco-logos__logo" src="assets/img/eco/eco1.png" alt="логотип"></li>
+            <li class="eco-logos__item"><img class="eco-logos__pic" src="assets/img/eco/eco2.jpg" alt="картинка"></li>
+            <li class="eco-logos__item"><img class="eco-logos__logo" src="assets/img/eco/eco3.png" alt="логотип"></li>
+          </ul>
+          <div class="ecology__text">
+            <p>Сублимационные чернила Isonik ST-E22 соответствуют стандарту OEKO-TEX 100</p>
+          </div>
+          <div class="ecology__standart"> <img class="eco-logos__pic" src="assets/img/logos/standart.png" alt="логотип"></div>
         </div>
-      </div>
-    </footer>
-  </div>
-</body>
-
+      </section>
+      <section class="b-contacts" id="contacts">
+        <div class="map" id="map"></div>
+        <div class="contacts">
+          <div class="contacts__desc">
+            <h3 class="title contacts__title">Контакты</h3>
+            <ul class="contacts__list">
+              <li class="contacts__item"><a class="contacts__value contacts__value_address" href="https://yandex.ru/maps/-/CBe4U-WIsA" target="_blank">Москва, Мукомольный пр-д, 4А стр.2, офис 505</a></li>
+              <li class="contacts__item"><span class="contacts__value contacts__value_phone">+7 (499) 259 54 01</span></li>
+              <li class="contacts__item"><a class="contacts__value contacts__value_mail" href="mailto:ale@t-textile.com">ale@t-textile.com</a></li>
+              <li class="contacts__item"><span class="contacts__value contacts__value_schedule">График работы:<br/>Понедельник — Пятница, 9:30 – 18:30</span></li>
+              <li class="contacts__item">
+                <ul class="contacts__social social">
+                  <li class="social__item"><a class="social__link" href="#">
+                      <svg class="social__icon">
+                        <use xlink:href="assets/img/sprite.svg#fb"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a class="social__link" href="#">
+                      <svg class="social__icon">
+                        <use xlink:href="assets/img/sprite.svg#twitter"></use>
+                      </svg></a></li>
+                  <li class="social__item"><a class="social__link" href="#">
+                      <svg class="social__icon">
+                        <use xlink:href="assets/img/sprite.svg#instagram"></use>
+                      </svg></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts__form feedback">
+            <div class="feedback__message feedback__message_disabled"></div>
+            <form class="form feedback__form" action="#" method="POST">
+              <h4 class="form__title">Напишите нам</h4>
+              <ul class="form__list">
+                <li class="form__item">
+                  <input class="form__field textfield" type="text" name="username" placeholder="Имя">
+                </li>
+                <li class="form__item">
+                  <input class="form__field textfield" type="text" name="email" placeholder="Почта">
+                </li>
+                <li class="form__item">
+                  <textarea class="form__field textarea" name="message" placeholder="Сообщение"></textarea>
+                </li>
+                <li class="form__item">
+                  <label class="form__checbox checkbox">
+                    <input class="checkbox__field" name="consent" type="checkbox"><span class="checkbox__label"> Я даю согласие на обработку своих персональных данных и соглашаюсь с политикой сайта</span>
+                  </label>
+                </li>
+                <li class="form__item">
+                  <button class="button button_bg_orange form__button" type="submit">Отправить</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__logos">
+          <div class="container">
+            <div class="logos"><a class="logo logo-tt" href="http://t-textile.ru/" target="_blank"><img class="logo__pic" src="assets/img/logos/tt.png" alt="tt logo"></a>
+              <div class="logos logos_dir_column"><span class="logo logo-isocarbo"><img class="logo__pic" src="assets/img/logos/isocarbo.png" alt="isocarbo logo"></span><span class="logo logo-isonik logo-isonik_size_s"><img class="logo__pic" src="assets/img/logos/isonik.png" alt="isocarbo logo"></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <div class="container">
+            <p>© T&T - Текстиль и технологии, 2017. Все права защищены.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
