@@ -13,81 +13,91 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
-    <div class="flexContainer">
-      <div class="wrapper">
-        <div class="container">
-          <h1 class="page-title">Ты сегодня покормил кота?</h1>
-          <div class="products">
-            <div class="product">
-              <input class="product__checkbox" id="product-1" type="checkbox">
-              <label class="product__card card" for="product-1">
-                <div class="card__body">
-                  <p class="card__title card__title_default">Сказочное заморское яство</p>
-                  <p class="card__title card__title_selected">Котэ не одобряет?</p>
-                  <h2 class="card__name">Нямушка </h2>
-                  <div class="card__composition">с фуа-гра</div>
-                  <ul class="card__options options">
-                    <li class="options__item"> <span class="options__count">10 </span>порций</li>
-                    <li class="options__item"> <span class="options__count"> </span>мышь в подарок</li>
-                  </ul>
-                  <div class="card__image"></div>
-                  <div class="card__weight"> <span>0,5</span><span>кг</span></div>
-                </div>
-              </label>
-              <p class="product__description product__description_ended">Печалька, с фуа-гра закончился.</p>
-              <p class="product__description product__description_default">Чего сидишь? Порадуй котэ, 
-                <label class="product__link" for="product-1">купи.</label>
-              </p>
-              <p class="product__description product__description_selected">Печень утки разварная с артишоками. </p>
-            </div>
-            <div class="product">
-              <input class="product__checkbox" id="product-2" type="checkbox" checked>
-              <label class="product__card card" for="product-2">
-                <div class="card__body">
-                  <p class="card__title card__title_default">Сказочное заморское яство</p>
-                  <p class="card__title card__title_selected">Котэ не одобряет?</p>
-                  <h2 class="card__name">Нямушка </h2>
-                  <div class="card__composition">с рыбой</div>
-                  <ul class="card__options options">
-                    <li class="options__item"> <span class="options__count">40 </span>порций</li>
-                    <li class="options__item"> <span class="options__count">2 </span>мыши в подарок</li>
-                  </ul>
-                  <div class="card__image"></div>
-                  <div class="card__weight"> <span>2</span><span>кг</span></div>
-                </div>
-              </label>
-              <p class="product__description product__description_ended">Печалька, с рыбой закончился.</p>
-              <p class="product__description product__description_default">Чего сидишь? Порадуй котэ, 
-                <label class="product__link" for="product-2">купи.</label>
-              </p>
-              <p class="product__description product__description_selected">Головы щучьи с чесноком да свежайшая сёмгушка. </p>
-            </div>
-            <div class="product">
-              <input class="product__checkbox" id="product-3" type="checkbox" disabled>
-              <label class="product__card card" for="product-3">
-                <div class="card__body">
-                  <p class="card__title card__title_default">Сказочное заморское яство</p>
-                  <p class="card__title card__title_selected">Котэ не одобряет?</p>
-                  <h2 class="card__name">Нямушка </h2>
-                  <div class="card__composition">с курой</div>
-                  <ul class="card__options options">
-                    <li class="options__item"> <span class="options__count">100 </span>порций</li>
-                    <li class="options__item"> <span class="options__count">5 </span>мышей в подарок</li>
-                    <li class="options__item">заказчик доволен</li>
-                  </ul>
-                  <div class="card__image"></div>
-                  <div class="card__weight"> <span>5</span><span>кг</span></div>
-                </div>
-              </label>
-              <p class="product__description product__description_ended">Печалька, с курой закончился.</p>
-              <p class="product__description product__description_default">Чего сидишь? Порадуй котэ, 
-                <label class="product__link" for="product-3">купи.</label>
-              </p>
-              <p class="product__description product__description_selected">Филе из цыплят с трюфелями в бульоне. </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <main class="page">
+      <section class="content">
+        <h1 class="content__title">Ты сегодня покормил кота?</h1>
+        <ul class="products">
+          <li class="product">
+            <input class="product__checkbox" id="product-1" type="checkbox">
+            <label class="product__card card" for="product-1">
+              <article class="card__wrapper">
+                <header class="card__header heading">
+                  <p class="card__category card__category_state_default">Сказочное заморское яство</p>
+                  <p class="card__category card__category_state_selected">Котэ не одобряет?</p>
+                  <h2 class="card__title">Нямушка </h2>
+                  <h3 class="card__subtitle">с фуа-гра</h3>
+                </header>
+                <ul class="card__options options">
+                  <li class="options__item"> <span class="options__count">10 </span>порций</li>
+                  <li class="options__item"> <span class="options__count"> </span>мышь в подарок</li>
+                </ul>
+                <div class="card__image"></div>
+                <div class="card__weight"> <span>0,5</span><span>кг</span></div>
+                <footer class="card__footer">
+                  <p class="card__description card__description_state_ended">Печалька, с фуа-гра закончился.</p>
+                  <p class="card__description card__description_state_default">Чего сидишь? Порадуй котэ, 
+                    <label class="card__link" for="product-1">купи.</label>
+                  </p>
+                  <p class="card__description card__description_state_selected">Печень утки разварная с артишоками. </p>
+                </footer>
+              </article>
+            </label>
+          </li>
+          <li class="product">
+            <input class="product__checkbox" id="product-2" type="checkbox" checked>
+            <label class="product__card card" for="product-2">
+              <article class="card__wrapper">
+                <header class="card__header heading">
+                  <p class="card__category card__category_state_default">Сказочное заморское яство</p>
+                  <p class="card__category card__category_state_selected">Котэ не одобряет?</p>
+                  <h2 class="card__title">Нямушка </h2>
+                  <h3 class="card__subtitle">с рыбой</h3>
+                </header>
+                <ul class="card__options options">
+                  <li class="options__item"> <span class="options__count">40 </span>порций</li>
+                  <li class="options__item"> <span class="options__count">2 </span>мыши в подарок</li>
+                </ul>
+                <div class="card__image"></div>
+                <div class="card__weight"> <span>2</span><span>кг</span></div>
+                <footer class="card__footer">
+                  <p class="card__description card__description_state_ended">Печалька, с рыбой закончился.</p>
+                  <p class="card__description card__description_state_default">Чего сидишь? Порадуй котэ, 
+                    <label class="card__link" for="product-2">купи.</label>
+                  </p>
+                  <p class="card__description card__description_state_selected">Головы щучьи с чесноком да свежайшая сёмгушка. </p>
+                </footer>
+              </article>
+            </label>
+          </li>
+          <li class="product">
+            <input class="product__checkbox" id="product-3" type="checkbox" disabled>
+            <label class="product__card card" for="product-3">
+              <article class="card__wrapper">
+                <header class="card__header heading">
+                  <p class="card__category card__category_state_default">Сказочное заморское яство</p>
+                  <p class="card__category card__category_state_selected">Котэ не одобряет?</p>
+                  <h2 class="card__title">Нямушка </h2>
+                  <h3 class="card__subtitle">с курой</h3>
+                </header>
+                <ul class="card__options options">
+                  <li class="options__item"> <span class="options__count">100 </span>порций</li>
+                  <li class="options__item"> <span class="options__count">5 </span>мышей в подарок</li>
+                  <li class="options__item">заказчик доволен</li>
+                </ul>
+                <div class="card__image"></div>
+                <div class="card__weight"> <span>5</span><span>кг</span></div>
+                <footer class="card__footer">
+                  <p class="card__description card__description_state_ended">Печалька, с курой закончился.</p>
+                  <p class="card__description card__description_state_default">Чего сидишь? Порадуй котэ, 
+                    <label class="card__link" for="product-3">купи.</label>
+                  </p>
+                  <p class="card__description card__description_state_selected">Филе из цыплят с трюфелями в бульоне. </p>
+                </footer>
+              </article>
+            </label>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
