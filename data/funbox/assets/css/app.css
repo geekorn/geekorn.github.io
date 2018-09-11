@@ -76,7 +76,7 @@ label {
       flex-wrap: wrap;
   width: calc(100% - 20px);
   max-width: 1140px; }
-  @media only screen and (max-width: 1019px) {
+  @media only screen and (max-width: 1040px) {
     .products {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
