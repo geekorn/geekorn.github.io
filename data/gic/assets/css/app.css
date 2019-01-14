@@ -15,9 +15,9 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.6))), url("/assets/img/background.jpg");
-  background-image: -o-linear-gradient(top, white, rgba(255, 255, 255, 0.6)), url("/assets/img/background.jpg");
-  background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.6)), url("/assets/img/background.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.6))), url("assets/img/background.jpg");
+  background-image: -o-linear-gradient(top, white, rgba(255, 255, 255, 0.6)), url("assets/img/background.jpg");
+  background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.6)), url("assets/img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
