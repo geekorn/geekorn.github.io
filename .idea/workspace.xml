@@ -1,40 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87449819-477b-4410-bcd3-2028012ec7df" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data/dist/images/04b791e99343f31446ed2eebccae6ba0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/068dc709d50c77e2d2c3ad8433405eec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/0bcd11d19ef8440ee06dc7deb7119161.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/10b3dd1beb966f241e80994aff1839e4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/1ae0371e23043ee0de1c01af3da7d80a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/25ed2f66041f2618152daf68a3ff7245.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/34c3c2b0af5489feea2c36e7a6572705.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/357bc2b2e9babeb234646653cc6093ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/3f82dafb76e3bd8c16158c1ccc877fbc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/4a32ba856f1aa2a0789a4d516ca768c2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/4dfa090596c9547f20187e7b4a7cc2b4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/52fa50f21e17d26708be944b5ea42b87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/7099cc572789856880b971d56c109709.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/92ff9c1db8e71b30771e2b452370b799.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/9e224eac29b24c8ab27996edb2cf3e16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/ae40f06ac70a623a3ce937b55fb926e0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/bdd6100b9ae6071e44d3faa673e3e186.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/cb02ca4691e3a5c4c4cac1d2c9f603fc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/cccac9a17c85194605f242918b2cd69f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/dcbb53984a7c4df546733b01753b3835.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/df203c274b451e58ef22a17f2a0d706f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/e427a87202f074c834a44dd5b28816b4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/e4a2771512e2e2a1130447b63758b320.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/ef0ea7f2840189a1b43af586c7d5ddcf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/f222f2c475941ba178f2d675dd9916a1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/f68491f1cd5bd3157aa204f76749cb70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/fbe1473c11ab26aad3e62b26729dd678.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/images/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/main.4047f7ca9329906a6772.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dist/main.9b25764dc703008798be.build.js" afterDir="false" />
+    <list default="true" id="87449819-477b-4410-bcd3-2028012ec7df" name="Default" comment="добавил работу concept-D">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/concept-d/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/concept-d/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +18,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="y" value="3" />
-    <option name="width" value="1552" />
-    <option name="height" value="904" />
-  </component>
   <component name="ProjectId" id="1ciKbIqxpgtOz8235FMsGEW02Nd" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -67,10 +29,11 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -136,6 +99,9 @@
       <updated>1504201955894</updated>
       <workItem from="1504201957304" duration="1977000" />
       <workItem from="1591006044734" duration="996000" />
+      <workItem from="1591021501869" duration="489000" />
+      <workItem from="1591023975470" duration="1137000" />
+      <workItem from="1591040136136" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="добавил работу concept-D">
       <created>1591006134924</created>
@@ -144,24 +110,51 @@
       <option name="project" value="LOCAL" />
       <updated>1591006134924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавил работу concept-D">
+      <created>1591018360651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591018360651</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавил работу concept-D">
+      <created>1591040570539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591040570539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавил работу concept-D" />
     <option name="LAST_COMMIT_MESSAGE" value="добавил работу concept-D" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="230" y="-936" key="CommitChangelistDialog2" timestamp="1591006134795">
+    <state x="230" y="-936" key="CommitChangelistDialog2" timestamp="1591040570314">
       <screen x="-273" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="230" y="-936" key="CommitChangelistDialog2/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1591006134795" />
-    <state x="287" y="-799" key="Vcs.Push.Dialog.v2" timestamp="1591006139131">
+    <state x="230" y="-936" key="CommitChangelistDialog2/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1591040570314" />
+    <state x="287" y="-799" key="Vcs.Push.Dialog.v2" timestamp="1591040637478">
       <screen x="-273" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="287" y="-799" key="Vcs.Push.Dialog.v2/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1591006139131" />
+    <state x="287" y="-799" key="Vcs.Push.Dialog.v2/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1591040637478" />
   </component>
 </project>
