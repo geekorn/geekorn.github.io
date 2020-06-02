@@ -94,7 +94,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_pcss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_pcss__WEBPACK_IMPORTED_MODULE_0__);
 
 
-if (false) {} // import "./scripts/skills";
+if (false) {}
 
 /***/ }),
 /* 1 */
