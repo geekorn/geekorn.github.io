@@ -1,49 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87449819-477b-4410-bcd3-2028012ec7df" name="Default" comment="добавил работу concept-D">
-      <change afterPath="$PROJECT_DIR$/images/bender1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bender1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bender2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bender3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cards1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cards2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cards3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/free_returns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/secure_payments.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/support.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+    <list default="true" id="87449819-477b-4410-bcd3-2028012ec7df" name="Default" comment="добавил лендинг пф">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/00ee6463c8a5772997e2b82760ab767b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/04b791e99343f31446ed2eebccae6ba0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1ae0371e23043ee0de1c01af3da7d80a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25ed2f66041f2618152daf68a3ff7245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/281261ba574528c21fb5b7c9b97f827d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/34c3c2b0af5489feea2c36e7a6572705.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/357bc2b2e9babeb234646653cc6093ad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/3dfe7b57e6f63e9847874a2f091e92eb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/47fc7b12c70c8d79bdebd668f36a7525.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/4a32ba856f1aa2a0789a4d516ca768c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/4dfa090596c9547f20187e7b4a7cc2b4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/52fa50f21e17d26708be944b5ea42b87.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/582319fe863f0ca08094e829e0cec37e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/5aa17de816c2ce516405a37c03c9c0bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/5ded4d10d3b0af97b064042ca561f3ca.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/6801d4cdf27e9b2140a43a1008b67b6b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/6d055e48d7ad60d9cf1209e101567b44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/829a10fb92bab623c1805fb92646c9a5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/8b074bf52e8ffc9695059777c5b6eda9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ae40f06ac70a623a3ce937b55fb926e0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bfe424104d5494e9dd89ef3a5cefe4d9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/c939a727ed02a0db8c33eebf22194a96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cccac9a17c85194605f242918b2cd69f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/e4a2771512e2e2a1130447b63758b320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ef0ea7f2840189a1b43af586c7d5ddcf.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/dns_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.2ee9ffe4d22d0733a2bb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.5bd8f43c73d1161768cf.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.b619e613eaccee177c5e.build.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.build.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +92,7 @@
       <workItem from="1591023975470" duration="1137000" />
       <workItem from="1591040136136" duration="2006000" />
       <workItem from="1592912802017" duration="1727000" />
-      <workItem from="1610399639963" duration="343000" />
+      <workItem from="1610399639963" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="добавил работу concept-D">
       <created>1591006134924</created>
@@ -177,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592912865373</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="добавил лендинг пф">
+      <created>1610400215877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610400215877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,22 +163,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавил работу concept-D" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил работу concept-D" />
+    <MESSAGE value="добавил лендинг пф" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил лендинг пф" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="287" y="-873" key="#Notifications" timestamp="1592912935790">
-      <screen x="-273" y="-1080" width="1920" height="1080" />
+    <state x="189" y="24" key="CommitChangelistDialog2" timestamp="1610400215663">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="287" y="-873" key="#Notifications/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1592912935790" />
-    <state x="230" y="-936" key="CommitChangelistDialog2" timestamp="1592912865124">
-      <screen x="-273" y="-1080" width="1920" height="1080" />
+    <state x="189" y="24" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1610400215663" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1610400743055">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="230" y="-936" key="CommitChangelistDialog2/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1592912865124" />
-    <state x="229" y="108" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591114378395" />
-    <state x="287" y="-799" key="Vcs.Push.Dialog.v2" timestamp="1592912868594">
-      <screen x="-273" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="287" y="-799" key="Vcs.Push.Dialog.v2/0.0.1440.900/-273.-1080.1920.1080@-273.-1080.1920.1080" timestamp="1592912868594" />
-    <state x="420" y="234" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591114384838" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610400743055" />
   </component>
 </project>

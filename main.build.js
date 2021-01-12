@@ -102,11 +102,27 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 if (false) {}
 
+var burger = document.querySelector('.js--burger-button');
 var popupButtons = document.querySelectorAll('.js--popup-button');
 var popup = document.querySelector('.popup');
 var popupCloseButton = document.querySelector('.popup__close-button');
 var popupOverlay = document.querySelector('.popup__overlay');
+var menu = document.querySelector('.header__menu');
 var questions = document.querySelectorAll('.faq__question');
+var anchors = document.querySelectorAll('.menu__link'); // window.addEventListener('click', function (e) {
+//   if (menu.classList.contains('open')) {
+//     let target = e.target.closest('.header__menu');
+//
+//     if (target) return;
+//
+//     menu.classList.remove('open');
+//   }
+// });
+
+function openMenu(e) {
+  menu.classList.toggle('open');
+  burger.classList.toggle('open'); // document.body.style = 'overflow: hidden';
+}
 
 function openPopup() {
   popup.classList.add('popup_open'); // document.body.style = 'overflow: hidden';
@@ -128,10 +144,10 @@ popupButtons.forEach(function (button) {
 });
 popupCloseButton.onclick = closePopup;
 popupOverlay.onclick = closePopup;
+burger.onclick = openMenu;
 questions.forEach(function (question) {
   return question.onclick = openQuestion;
 });
-var anchors = document.querySelectorAll('.menu__link');
 
 var _iterator = _createForOfIteratorHelper(anchors),
     _step;
