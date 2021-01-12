@@ -445,7 +445,7 @@ svg {
         -ms-flex-positive: 1;
         flex-grow: 1;
     }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
 .header__menu {
             position: fixed;
             top: 0;
@@ -480,7 +480,7 @@ svg {
     -ms-flex-align: center;
     align-items: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
 .menu {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -497,7 +497,7 @@ svg {
 .menu__item + .menu__item {
             margin-left: 40px;
         }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
 .menu__item + .menu__item {
                 margin-left: 0;
                 margin-top: 40px
@@ -522,9 +522,7 @@ svg {
     position: relative;
     width: 20px;
     height: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -543,6 +541,13 @@ svg {
     transition: transform 0.4s;
     transition: transform 0.4s, -webkit-transform 0.4s;
 }
+@media screen and (max-width: 1024px) {
+.burger-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+}
+  }
 .burger-button span {
         display: block;
         width: 100%;
@@ -1066,6 +1071,8 @@ svg {
         flex-wrap: wrap;
     }
 .price__column {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
         -ms-flex-negative: 0;
         flex-shrink: 0;
         -webkit-box-flex: 0;
@@ -1178,13 +1185,13 @@ svg {
 .callback__column:first-child {
             padding-right: 150px;
         }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 .callback__column:first-child {
                 padding-right: 0;
                 margin-bottom: 20px
         }
   }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 .callback__column {
             -ms-flex-preferred-size: 100%;
             flex-basis: 100%
@@ -1270,6 +1277,14 @@ svg {
         flex-wrap: wrap;
         margin-bottom: 20px;
     }
+@media screen and (max-width: 768px) {
+.form__layout {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column
+    }
+  }
 .form__field {
         -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -1278,7 +1293,7 @@ svg {
 .form__field:not(:first-child) {
             margin-left: 30px;
         }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 .form__field:not(:first-child) {
                 margin-left: 0;
                 margin-top: 30px
